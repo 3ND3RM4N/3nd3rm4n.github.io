@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	min-height: 100vh;
+	height: auto;
+	font-family: 'Oswald', sans-serif;
+	background: #eee;
+	overflow: hidden;
+}
+
+body h1{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+body hr{
+	width: 40%;
+	color: rbga(0,0,0,0.7);
+}
+
+body .navigation{
+	width: 40%;
+	display: block;
+	margin: 10px auto;
+}
+
+.about{
+	text-align: center;
+}
+.about img{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 10px;
+}
